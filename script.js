@@ -7,6 +7,7 @@ const teachers = [
   'Lewis',
   'Luca'
 ]; // NON MODIFICARE QUESTA VARIABILE
+
 console.log(teachers);
 
 // 1. Inverti l'ordine degli insegnanti nell'array teachers
@@ -20,6 +21,9 @@ console.log(teachers);
 const longNames = null;
 
 // 3. Rimuovi 'Ed' dall'array teachers
+teachers.splice(5,1)
+console.log(teachers);
+
 
 // 4. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
